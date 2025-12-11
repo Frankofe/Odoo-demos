@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_order_acopio,sale.order.acopio,model_sale_order,group_construct_acopio,1,1,1,1
+access_acopio_wizard,acopio.wizard,model_acopio_wizard,group_construct_acopio,1,1,1,1

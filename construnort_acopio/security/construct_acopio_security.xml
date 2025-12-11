@@ -1,0 +1,5 @@
+<odoo>
+    <record id="group_construct_acopio" model="res.groups">
+        <field name="name">Construct Acopio</field>
+    </record>
+</odoo>

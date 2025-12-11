@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_acopio_wizard_form" model="ir.ui.view">
+        <field name="name">acopio.wizard.form</field>
+        <field name="model">acopio.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Acopio">
+                <group>
+                    <field name="acopio_bool"/>
+                </group>
+                <footer>
+                    <button string="Aceptar" type="object" name="action_confirm" class="btn-primary"/>
+                    <button string="Cancelar" special="cancel" class="btn-secondary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
